@@ -1,0 +1,5 @@
+Connectors Rectandular WF
+	WF - GSC6 http://www.gosun-tech.com/Connector-Wire-to-board-connector-GSC6.htm
+		http://www.gosun-tech.com/Connector-Wire-to-board-connector-GSC7.htm
+		WF-5
+		WF-5A

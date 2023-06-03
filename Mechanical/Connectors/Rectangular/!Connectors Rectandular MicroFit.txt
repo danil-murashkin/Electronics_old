@@ -1,0 +1,17 @@
+Connectors Rectandular MIcroFit
+	MF - Micro_fit
+		MF-2-F MF-2
+		MF-2R MF-2
+		MF-4MR MF-4X
+		MF-20RB MF-20RB
+		CNT4-F MF-4
+		MF-2-F MF-2
+		MF-2R MF-2
+		MF-4MR MF-4X
+		MF-4MR MF-4X
+		MF-16MA MF-16MA
+	MF - Mini-Fit https://www.molex.com/molex/products/family?key=minifit_power_connector_solutions&channel=products&chanName=family&pageTitle=Introduction&parentKey=power_connectors
+	MF3
+		MF3-02MRA MF3-02MRA
+		MF3-02MRA MF-2
+		MF3-04MRA MF3-04MRA

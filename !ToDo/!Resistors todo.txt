@@ -1,0 +1,40 @@
+Make packages 
+
+Resistors Chip SM metric
+http://www.resistorguide.com/resistor-sizes-and-packages/
+	0201
+	03015
+	0402
+	0603
+	1005
+	1608
+	2012
+	3216
+	3225
+	4532
+	5025
+	6332
+
+Resistors Chip SM Wide metric
+http://www.resistorguide.com/resistor-sizes-and-packages/
+	0816
+	1220
+	1632
+	2037
+	2075
+	2550
+	3245
+	3264
+	5176
+
+Resistors Chip Array SM metric
+
+
+Resistors TH 
+http://www.resistorguide.com/resistor-sizes-and-packages/
+	3020
+	6525
+	9035
+	1150
+	1555
+	1765

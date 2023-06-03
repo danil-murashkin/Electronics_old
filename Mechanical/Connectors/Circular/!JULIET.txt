@@ -1,0 +1,9 @@
+Datasheets:
+	http://www.higoconnector.com/products/z209bm-p-00-a0-1000/K999K#title
+	http://www.higoconnector.com/products/download/4kpp5/z209bm-p-00-a0-1000.pdf
+
+Pinout JULIET:
+	1. black - GND
+	2. yellow - interface 1-wire 3.3V
+	3. blue - VCC 32В до 42В
+	4. red - VDD 5v, enabled from display

@@ -1,0 +1,5 @@
+Connectors Rectandular CN
+	 - GSC7 http://www.gosun-tech.com/Connector-Wire-to-board-connector-GSC7.htm
+		CN_3PIN CN_3PIN
+		CN_PWL2-F CN_PWL2
+		CN_PWL2 CN_PWL2

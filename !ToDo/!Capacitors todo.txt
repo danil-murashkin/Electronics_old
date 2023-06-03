@@ -1,0 +1,114 @@
+Make packages 
+
+
+	Ceramic multilayer
+		http://www.topline.tv/ChipCap.html
+		0201
+		03015
+		0402
+		0603
+		1005
+		1608
+		2012
+		3216
+		3225
+		4532
+		4563
+		5664
+
+		0510
+		0816
+		1220
+		1632
+
+
+
+
+main NAMES LxW for square DxL for round
+
+	Tantalum - http://www.topline.tv/ChipTantalum.html
+		Size A	3.2 x 1.6 x 1.6	EIA 3216-18
+		Size B	3.5 x 2.8 x 1.9	EIA 3528-21
+		Size C	6.0 x 3.2 x 2.2	EIA 6032-28
+		Size D	7.3 x 4.3 x 2.4	EIA 7343-31
+		Size E	7.3 x 4.3 x 4.1	EIA 7343-43
+		A
+		B
+		C
+		D
+		E
+		P/R
+		J
+
+	Electrolytic SM  - https://industrial.panasonic.com/ww/products/capacitors/aluminum-capacitors/aluminum-cap-smd
+		A
+		B
+		C
+		D
+		D8
+		E
+		F
+		G
+		G13
+		G17
+		H13
+		H16
+		J16
+		J21
+		K16
+		K21
+		+Vibration Resistance
+
+	Electrolytic TH http://www.cde.com/resources/catalogs/300-301.pdf
+		EG
+		EK
+		EM
+		EN	
+		ER
+		FK
+		FF
+		FQ
+		FV
+		LQ
+		LV
+		GE
+		GJ
+		GL
+		GP
+		GS
+		GT
+		HE
+		HJ
+		HP
+		HS
+		HT
+		JE
+		JJ
+		HL
+		JP
+		JS
+		JT
+
+	Electrolytic TH http://www.kemet.com/Lists/ProductCatalog/Attachments/282/KEM_A4005_ESH.pdf
+		C3
+		E3
+		G3
+		G4
+		G8
+		H9
+		H2
+		H8
+		H4
+		L3
+		L4
+		M7
+		M2
+		M3
+		N5
+		N8
+		N1
+		N1
+		N3
+		N7		
+
+Make simple library

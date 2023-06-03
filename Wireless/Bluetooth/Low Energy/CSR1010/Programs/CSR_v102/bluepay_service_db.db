@@ -1,0 +1,127 @@
+/******************************************************************************
+ *  Copyright (c) 2017 bluePay
+ *  Part of CSR uEnergy SDK 2.6.0
+ *  Application version 2.6.0.0
+ *
+ *  FILE
+ *      bluepay_service_db.db
+ *
+ *  DESCRIPTION
+ *      This file defines the bluePay service in JSON format.
+ *      This file is included in the main application data base file 
+ *      which is used to produce ATT flat data base.
+ *
+ *****************************************************************************/
+#ifndef __BLUEPAY_SERVICE_DB_DB__
+#define __BLUEPAY_SERVICE_DB_DB__
+
+#include "bluepay_service_uuids.h"
+#include "user_config.h"
+
+
+
+/* Primary service declaration of bluePay service */
+primary_service {
+    uuid : UUID_BLUEPAY_SERVICE,
+    name : "BLUEPAY_SERVICE",
+
+
+    characteristic {
+        uuid : UUID_BLUEPAY_SERVER_STATUS,
+        properties : [read, write],
+        name: "BLUEPAY_SERVER_STATUS",
+        value : 0x00
+    },
+       
+
+    characteristic {
+        uuid : UUID_BLUEPAY_CLIENT_STATUS,
+        properties : [read, write],
+        name: "BLUEPAY_CLIENT_STATUS",
+        value : 0x00
+       
+    },
+
+
+    characteristic {
+        uuid : UUID_BLUEPAY_VALUE_TOKEN,
+        properties : [read, write],
+        name: "BLUEPAY_VALUE_TOKEN",
+        value : "5a4951a0-f299-11e6-bc64-92361f002671"
+       
+    },
+
+
+    characteristic {
+        uuid : UUID_BLUEPAY_ID,
+        properties : read,
+        name: "BLUEPAY_ID",
+        value : "bluePay_100003"
+       
+    },
+
+
+    characteristic {
+        uuid : UUID_BLUEPAY_TYPE,
+        properties : read,
+        name: "BLUEPAY_TYPE",
+        value : "bluePay Test"
+       
+    },
+
+
+    characteristic {
+        uuid : UUID_BLUEPAY_DATA_READ,
+        properties : [read],
+        flags : [FLAG_IRQ],
+        name: "BLUEPAY_DATA_READ",
+        value : 0x00
+       
+    },
+
+    characteristic {
+        uuid : UUID_BLUEPAY_DATA_READ_POINTER,
+        properties : [write],
+        flags : [FLAG_IRQ],
+        name: "BLUEPAY_DATA_READ_POINTER",
+        value : 0x00
+       
+    },
+    
+    characteristic {
+        uuid : UUID_BLUEPAY_DATA_READ_LENGHT,
+        properties : [read],
+        flags : [FLAG_IRQ],
+        name: "BLUEPAY_DATA_READ_LENGHT",
+        value : 0x00
+       
+    },
+
+
+    characteristic {
+        uuid : UUID_BLUEPAY_DATA_WRITE,
+        properties : [write],
+        flags : [FLAG_IRQ],
+        name: "BLUEPAY_DATA_WRITE",
+        value : 0x00
+       
+    },
+
+    characteristic {
+        uuid : UUID_BLUEPAY_DATA_WRITE_POINTER,
+        properties : [read],
+        flags : [FLAG_IRQ],
+        name: "BLUEPAY_DATA_WRITE_POINTER",
+        value : 0x00       
+    },
+    
+    characteristic {
+        uuid : UUID_BLUEPAY_DATA_WRITE_LENGHT,
+        properties : [write],
+        flags : [FLAG_IRQ],
+        name: "BLUEPAY_DATA_WRITE_LENGHT",
+        value : 0x00       
+    }
+    
+},  
+#endif /* __BLUEPAY_SERVICE_DB_DB__ */

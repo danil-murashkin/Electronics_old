@@ -1,0 +1,4 @@
+Connectors AC
+	CN_3PIN_AC CN_3PIN
+	DJK02BG DJK02B
+

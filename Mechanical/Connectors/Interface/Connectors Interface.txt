@@ -1,0 +1,3 @@
+Connectors Interface
+	USBB-1JA USBB-1J
+	..

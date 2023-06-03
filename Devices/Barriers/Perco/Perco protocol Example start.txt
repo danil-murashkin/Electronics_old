@@ -1,0 +1,147 @@
+---
+ AA 05 8C 04 01 02 D8 FF
+ AA 05 8C 04 01 02 D8 FF
+ AA 25 8C 04 01 02 59 38
+ AA 25 8C 04 01 02 59 38
+ AA 45 8C 04 01 02 D9 30
+ AA 45 8C 04 01 02 D9 30
+ AA 65 8C 04 01 02 58 F7
+ AA 65 8C 04 01 02 58 F7
+ AA 85 8C 04 01 02 D9 21
+ AA 85 8C 04 01 02 D9 21
+ AA A5 8C 04 01 02 58 E6
+ AA A5 8C 04 01 02 58 E6
+ AA C5 8C 04 01 02 D8 EE
+ AA C5 8C 04 01 02 D8 EE
+ AA E5 8C 04 01 02 59 29
+ AA E5 8C 04 01 02 59 29
+---
+ AA 05 1A FF A4 DE
+ AA 05 1A FF A4 DE
+ AA 25 1A FF A5 14
+ AA 25 1A FF A5 14
+ AA 45 1A FF A5 0A
+ AA 45 1A FF A5 0A
+ AA 65 1A FF A4C0
+ AA 65 1A FF A4C0
+ AA 85 1A FF A5 36
+ AA 85 1A FF A5 36
+ AA A5 1A FF A4 FC
+ AA A5 1A FF A4 FC
+ AA C5 1A FF A4 E2
+ AA C5 1A FF A4 E2
+ AA E5 1A FF A5 28
+ AA E5 1A FF A5 28
+ AA 01 1A FF E5 1F
+ AA 01 1A FF E5 1F
+-----
+
+
+Controller:	AA 21 1A FF E4 D5 
+Reader:		66 64
+
+Controller:	AA 21 48 04 FF 00 FF 68 00
+Reader:		E7 99
+
+Controller:	AA 21 A8 07 01 01 FF 01 01 FF 01 01 FF C5 7D
+Reader:		E6 11
+  
+
+-----
+ AA 41 1A FF E4CB
+ AA 41 1A FF E4CB
+ AA 61 1A FF E5 01
+ AA 61 1A FF E5 01
+ AA 81 1A FF E4 F7
+ AA 81 1A FF E4 F7
+ AA A1 1A FF E5 3D
+ AA A1 1A FF E5 3D
+ AA C1 1A FF E5 23
+ AA C1 1A FF E5 23
+ AA E1 1A FF E4 E9
+ AA E1 1A FF E4 E9
+ AA 02 1A FF 15 1F
+ AA 02 1A FF 15 1F
+ AA 22 1A FF 14 D5
+ AA 22 1A FF 14 D5
+---
+ AA 04 38 16 1E 16 6A F5
+-----
+
+
+Controller: AA 21 1B 0F E5 01 
+Reader:		A7 A4
+
+Controller: AA 21 48 02 00 FF FF 19 48 
+Reader:		E7 99
+
+
+-----
+ AA 04 38 17 1E 16 3B 35
+ AA 04 38 17 1E 16 3B 35
+ AA 04 38 17 1E 16 3B 35
+ AA 04 38 17 1E 16 3B 35
+ AA 04 38 17 1E 16 3B 35
+---
+ AA 05 04 00
+-----
+ 
+
+Controller: AA 21 01 
+Reader:		5D 12 00 00 00 00 00 00 00 00 C1 64
+
+Controller: AA 21 09 27 A9 
+Reader:		27 A9
+
+Controller: AA 21 05 
+Reader:		91 00 00 00 00 00 00 00 00 00 C5 F7
+
+Controller:	AA 21 1A FF E4 D5 
+Reader:		66 64
+
+Controller:	AA 21 48 02 00 FF FF 19 48 
+Reader:		E7 99
+
+
+
+Controller: AA 21 01 
+Reader:		C7 02 00 00 00 00 00 00 00 00 2A F9
+ 
+Controller: AA 21 05 
+Reader:		0E 00 00 00 00 00 00 00 00 00 F3 BA
+
+Controller: AA 21 01 
+Reader:		BC 02 00 00 00 00 00 00 00 00 59 37
+ 
+Controller: AA 21 05 
+Reader:		A7 00 00 00 00 00 00 00 00 00 25 17
+
+Controller:	AA 21 01 
+Reader:		02 02 00 00 00 00 00 00 00 00 3F D5
+
+Controller: AA 21 05 
+Reader:		C8 00 00 00 00 00 00 00 00 00 16 99
+
+Controller: AA 21 01 
+Reader:		12 02 00 00 00 00 00 00 00 00 3E 40
+
+Controller: AA 21 05 
+Reader:		70 00 00 00 00 00 00 00 00 00 90 64
+
+Controller: AA 21 01 
+Reader:		C8 02 00 00 00 00 00 00 00 00 1A C9
+
+Controller: AA 21 05 
+Reader:		E8 00 00 00 00 00 00 00 00 00 17 F3
+
+Controller: AA 21 01 
+Reader:		B7 02 00 00 00 00 00 00 00 00 28 D2
+
+Controller: AA 21 05 
+Reader:		3B 00 00 00 00 00 00 00 00 00 E3 55
+
+Controller: AA 21 01 
+Reader:		82 02 00 00 00 00 00 00 00 00 38 3D
+
+Controller: AA 21 05 
+Reader:		55 00 00 00 00 00 00 00 00 00 81 1E

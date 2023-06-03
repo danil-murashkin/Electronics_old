@@ -1,0 +1,15 @@
+BODLEVEL = 2V7
+OCDEN = [ ]
+JTAGEN = [X]
+SPIEN = [X]
+WDTON = [ ]
+EESAVE = [ ]
+BOOTSZ = 2048W_F800
+BOOTRST = [X]
+CKDIV8 = [ ]
+CKOUT = [ ]
+SUT_CKSEL = EXTXOSC_8MHZ_XX_16KCK_65MS
+
+EXTENDED = 0xFD (valid)
+HIGH = 0x9A (valid)
+LOW = 0xFF (valid)

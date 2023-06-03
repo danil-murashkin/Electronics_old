@@ -1,0 +1,4 @@
+Connectors Rectandular MPW
+	 (5.08)  - GSC9-5.08 http://www.gosun-tech.com/Connector-Wire-to-board-connector-GSC9.htm
+		MPW-6
+		MPW-2 MPW-2

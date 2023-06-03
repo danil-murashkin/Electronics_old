@@ -1,0 +1,3 @@
+Connectors Rectandular PWL
+	 (CH3.96) - GSC9-3.96 http://www.gosun-tech.com/Connector-Wire-to-board-connector-GSC9.htm
+		PWL-2 PWL-2 3.96mm

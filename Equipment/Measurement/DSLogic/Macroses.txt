@@ -1,0 +1,53 @@
+Sub Macro1()
+
+    Do Until IsEmpty(ActiveCell)
+        Range(ActiveCell, ActiveCell.Offset(1, 2)).Delete Shift:=xlUp
+        ActiveCell.Offset(1, 0).Activate
+    Loop
+    
+End Sub
+
+
+Sub Macro2()
+
+    Dim current_cell_time As Single, next_cell_time As Single
+    Dim current_packet_status As Boolean
+    Dim current_packet_lenght As Integer
+    Dim current_packet_count As Integer
+    
+    current_packet_status = True
+    current_packet_lenght = 0
+    current_packet_count = 0
+    
+    
+    Do Until IsEmpty(ActiveCell)
+        
+        If IsEmpty(ActiveCell) Then Exit Sub
+        If IsEmpty(ActiveCell.Offset(1, 0)) Then Exit Sub
+        
+        current_cell_time = ActiveCell.Value
+        next_cell_time = ActiveCell.Offset(1, 0).Value
+                    
+        If (next_cell_time - current_cell_time) > 0.2 Then
+            current_packet_status = False
+        End If
+                
+                
+        If current_packet_status = True Then
+            ActiveCell.Offset(0, 2 + current_packet_lenght).Value = ActiveCell.Offset(1, 1).Value
+            
+            current_packet_lenght = current_packet_lenght + 1
+            
+            Range(ActiveCell.Offset(1, 0), ActiveCell.Offset(1, 1)).Delete Shift:=xlUp
+        Else
+            ActiveCell.Offset(1, 0).Activate
+            current_packet_status = True
+            current_packet_lenght = 0
+            current_packet_count = current_packet_count + 1
+        End If
+        
+    Loop
+    
+    
+End Sub
+

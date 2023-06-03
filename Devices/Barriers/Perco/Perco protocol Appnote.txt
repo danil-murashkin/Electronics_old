@@ -1,0 +1,213 @@
+8.LEDS_AND_BUZ
+	Controller request:
+		1 byte: 
+			AA - prefix
+		2 byte: 
+			reader id
+			0x01 - 1th reader
+			0x21 - 2nd reader
+		3 byte:
+			7-4 bits - request parameters lenght
+			3-0 bits (8) - request code
+		4..last bytes:
+			???
+		next 2(L,H) bytes:
+			CRC16-Maxim(Controller[1..last])
+	Reader response:
+		1,2(L,H) bytes:
+			CRC16-Maxim(Controller[1..2])
+	Examples:
+		Hide red led
+			AA 21 48 04 FF 00 FF 68 00
+			E7 99
+		Enable orange leds
+			Controller request: AA 21 48 02 00 FF FF 19 48 
+			E7 99
+		Blinking all leds
+			AA 21 A8 07 01 01 FF 01 01 FF 01 01 FF C5 7D
+			E6 11
+		Green led and beep
+			AA 21 78 19 00 FF 01 00 03 01 31 35 
+			E7 8D
+
+
+
+B.LEDS_DISABLE	
+	Controller request:
+		1 byte: 
+			AA - prefix
+		2 byte: 
+			reader id
+			0x01 - 1th reader
+			0x21 - 2nd reader
+		3 byte 
+			7-4 bits (1) - request parameters lenght
+			3-0 bits (B) - request code
+		4 byte 
+			1F/0F
+		5,6(L,H) byte
+			CRC16-Maxim(Controller[1..3])
+	Reader response:
+		1,2(L,H) bytes:
+			CRC16-Maxim(Controller[1..2])
+	Examples:
+		Everytime 2 variant and changes reader id
+			AA 21 1B 0F E5 01 
+			A7 A4
+			AA 21 1B 1F E4 CD
+			A7 A4
+
+
+
+A.LEDS_RESET
+	Controller request:
+		1 byte: 
+			AA - prefix
+		2 byte: 
+			reader id
+				0x01 - 1th reader
+				0x21 - 2nd reader
+		3 byte 
+			7-4 bits (1) - request parameters lenght
+			3-0 bits (A) - request code
+		4 byte
+			FF
+		5,6(L,H) byte
+			CRC16-Maxim(Controller[1..3])
+	Reader response:
+		1,2(L,H) bytes:
+			CRC16-Maxim(Controller[1..2])
+	Examples:
+		Everytime but changes reader id
+			AA 21 1A FF E4 D5 
+			66 64
+
+
+
+0.PING
+	Controller request:
+		1 byte: 
+			AA - prefix
+		2 byte: 
+			reader id
+			0x01 - 1th reader
+			0x21 - 2nd reader
+		3 byte 
+			7-4 bits (0) - request parameters lenght
+			3-0 bits (0) - request code 
+	Reader response:
+		1,2(L,H) bytes:
+			CRC16-Maxim(Controller[1..2])
+	Examples:
+		Everytime but changes reader id
+			AA 21 00
+			E7 AF
+
+
+
+9.DATA_READED
+	Controller request:
+		1 byte: 
+			AA - prefix
+		2 byte: 
+			reader id
+			0x01 - 1th reader
+			0x21 - 2nd reader
+		3 byte 
+			7-4 bits (0) - request parameters lenght
+			3-0 bits (9) - request code 
+		4,5(L,H) byte 
+			1,2(L,H) bytes:
+			CRC16-Maxim(Controller[1..2])
+	Reader response:
+		1,2(L,H) bytes:
+			CRC16-Maxim(Controller[1..2])
+	Examples:
+		Everytime but changes reader id
+			AA 21 09 27 A9 
+			27 A9
+
+
+
+1. GET_READER_DATA
+	Controller request:
+		1 byte: 
+			AA - prefix
+		2 byte: 
+			reader id
+			0x01 - 1th reader
+			0x21 - 2nd reader
+		3 byte 
+			7-4 bits (0) - request parameters lenght
+			3-0 bits (1) - request code 
+	Reader response:
+		1 byte: 
+			Random?
+		2 byte:
+			7 bit - 
+			6 bit - carde sense new
+			5 bit - 
+			4 bit - ? first start
+			3 bit - ? beep
+			2 bit - red led
+			1 bit - orange led
+			0 bit - green led
+		3..10 bytes:
+			card id data
+		11,12(L,H) bytes:
+			CRC16-Maxim(Controller[1..2] + Reader[0..9])	
+	Examples:
+		Start
+			AA 21 01
+			04 12 00 00 00 00 00 00 00 00 12 0A
+		Normal mode
+			AA 21 01
+			A1 02 00 00 00 00 00 00 00 00 C9 58
+		Open
+			AA 21 01
+			9E 4A 6C 3F 84 06 00 00 00 00 F0 AE
+			AA 21 01
+			C9 0A 6C 3F 84 06 00 00 00 00 73 F6
+			AA 21 01
+			B9 00 6C 3F 84 06 00 00 00 00 0F 7D
+			AA 21 01
+			C6 09 6C 3F 84 06 00 00 00 00 57 36
+			AA 21 01
+			BB 09 6C 3F 84 06 00 00 00 00 C4 E7
+			AA 21 01
+			9F 01 6C 3F 84 06 00 00 00 00 E3 98
+
+
+
+5.GET_READER_OTHER
+	Controller request:
+		1 byte: 
+			AA - prefix
+		2 byte: 
+			reader id
+			0x01 - 1th reader
+			0x21 - 2nd reader
+		3 byte 
+			7-4 bits (0) - request parameters lenght
+			3-0 bits (5) - request code 
+	Reader response:
+		1 byte: 
+			Random?
+		2..10 bytes:
+			0x00
+		11,12(L,H) bytes:
+			CRC16-Maxim(Controller[1..2] + Reader[0..9])
+	Examples:
+		Everytime but changes first byte and crc
+			AA 21 05
+			87 00 00 00 00 00 00 00 00 00 24 7D
+			AA 21 05
+			50 00 00 00 00 00 00 00 00 00 10 B1
+			AA 21 05
+			04 00 00 00 00 00 00 00 00 00 D3 9A
+			AA 21 05
+			B7 00 00 00 00 00 00 00 00 00 A5 3D
+			AA 21 05
+			90 00 00 00 00 00 00 00 00 00 94 32
+			AA 21 05
+			0F 00 00 00 00 00 00 00 00 00 23 C0

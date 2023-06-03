@@ -1,0 +1,403 @@
+Корпуса
+
+Список к выполнению на диоды
+Список к выполнению на транзисторы
+Список к выполнению на микросхемы
+
+
+
+
+ADC
+	AD7740_SOT23 SOT23-8
+
+Amplifier
+	INA114AP DIP8_S	
+	..
+
+Backlight
+	L_PED L_PED	
+	..
+
+Battery
+	3V Li-ion Cell
+	LION LION_S
+
+Buffers
+	74HC125A SOIC-14
+	74LVC125A SOIC-14
+
+Buttons
+	SWT-2 SWT-2 Маленькая
+	..
+
+Buzzer
+	HPM14AX HPM14AX	
+	..
+
+Capacitors Aluminium
+	Dump components by sizes for Electrolitic capacitors Type A, Type C ...
+	TECAP-A TECAP-A
+	TECAP-C C-TAN_С
+	TECAP_D TYPE_D
+	TECAP_D_G_1 CAP_TECAP_D_G
+	TECAP_D_G_2 CAP_TECAP_D_G
+	RUS К50-35
+	RUS K5035A01 K5035A01
+	RUS K5035A03 K5035A03
+	RUS K5035A06 K5035A06
+
+Capacitors Ceramic
+	CAP_1206 1206
+	NXP_X2
+
+Capacitors Tantalum
+	C-TAN-1UF C-TAN-1UF
+	..
+	
+Connectors AC
+	CN_3PIN_AC CN_3PIN
+	..
+
+Connectors DSub
+	DRB-9FA
+	DRB-9F
+	DRB-9MA	
+	DB9F
+	DB9M
+
+Connectors Interface
+	USBB-1JA USBB-1J
+	..
+
+Connectors Power
+	DJK02BG DJK02B
+	..
+
+Connectors Rectandular	
+	PL(S,D,xR) standart (and 10P mirror) - headers http://www.gosun-tech.com/Pin-header.htm
+		PLD-2
+		PLS-4 
+		PLS 3-Pin Connector:SI PLS 3-Pin 
+		PLD-4A PL-4M
+		PLS-5A PLSD-5
+
+	PB(S,D,xR) standart (and 10P mirror) - headers http://www.gosun-tech.com/Pin-header.htm  
+		PBD10
+
+	WF - 
+		WF-5
+		WF-5A
+
+	HU - 
+		http://www.palyoo.com/product_e.asp?classtype=Connector%20Series&smallclass=Wafer%20Connector#
+
+	TB - terminal block http://www.gosun-tech.com/Wireprotector-Terminal.htm
+		TB-012	
+		TB-013	
+
+	PWL (CH3.96) - GSC9-3.96 http://www.gosun-tech.com/Connector-Wire-to-board-connector-GSC9.htm
+		PWL-2 PWL-2 3.96mm
+
+	MPW (5.08)  - GSC9-5.08 http://www.gosun-tech.com/Connector-Wire-to-board-connector-GSC9.htm
+		MPW-6
+		MPW-2 MPW-2
+
+	XH - GSC6 http://www.gosun-tech.com/Connector-Wire-to-board-connector-GSC6.htm
+		
+	CN - GSC7 http://www.gosun-tech.com/Connector-Wire-to-board-connector-GSC7.htm
+		CN_3PIN CN_3PIN
+		CN_PWL2-F CN_PWL2
+		CN_PWL2 CN_PWL2
+
+	IDC - http://www.gosun-tech.com/Box-Header.htm
+		IDC-10MA
+		IDC-20M 
+		IDC-16MA 
+
+	MF - Mini-Fit https://www.molex.com/molex/products/family?key=minifit_power_connector_solutions&channel=products&chanName=family&pageTitle=Introduction&parentKey=power_connectors
+		MF-2-F MF-2
+		MF-2R MF-2
+		MF-4MR MF-4X
+		MF-20RB MF-20RB
+		CNT4-F MF-4
+		MF3-02MRA MF3-02MRA
+		MF3-02MRA MF-2
+		MF3-04MRA MF3-04MRA
+		MF-2-F MF-2
+		MF-2R MF-2
+		MF-4MR MF-4X
+		MF-4MR MF-4X
+		MF-16MA MF-16MA
+
+Crystals
+	HC-49SM RK_SMT
+	HC-49U HC-49/U(MD)
+	HC-495M RK-SMT
+	HC-49U HC-49U
+	Time OSC_32
+	OSC_16M OSC-DIP
+
+Digital
+	SOIC8 SO8
+	SOIC16 SOIC16
+
+Diodes Bridges
+	DF10S DFS
+	VD_RS407 RS-407	
+
+Diodes Rectifier
+	SOD80 SOD80
+	DO-213AB 
+	1N4XXX DO214AС(SMA)
+	1N4XXX DO-41
+	1N5822 DO-27
+	1N40xx DO214AС (SMA)	
+	SMA SMA22
+
+Diodes Signal switching 
+	BAV99 SOT-23
+	..
+
+Diodes Fast Switching 
+	BAS16 SOT-23
+	BAS81 SOD80_Secondary(Inches)
+	VD_MUR160 DO-41_Primary	
+	VD_LL4148 SOD80_Primary
+	MUR160 DO-41_Primary
+
+Diodes Schottky
+	MBRS360T3 SMC
+	MBRS340 DO-214AB
+	DO214AA DO214AA
+	SOD80 SOD80
+	SMA SMA22
+	MBRS0520L SOD-123
+	
+Diodes TVS
+	TVS_UN SMAJ_CA
+	TVS_BI SMAJ_CA
+	VD_PKE DO-15_P6KE
+	P6KE DO-15_P6KE
+	SMBJ15CA DO214AA
+	ESDA6V1W5 SOT-323-5	
+
+Diodes Zener
+	BZX84Cxxx
+	..
+
+Display Segmental
+	DF700543D ind DF700543D ind	
+	..
+
+Fuses
+	Fuse F_S1053	
+	..
+
+Inductor Power
+	CDRH2D18 CDRH2D18
+	CDRH104R CDRH104R
+	CECL CDRH2D18
+	CECL CECL
+	CECL_1 CDRH2D18
+	CECL_1 CECL
+	CECL_1 CECL	
+	CDRH104R
+	VTP-01002 CDRH2D18
+	VTP-01002 VTP-01002 http://www.premiermag.com/pdf/vtp.pdf
+	RCH-101 RCH-INDUCT  (47uH Cilinder TH) 
+	RH complit RH complit (22uH SM)
+
+Inductor
+	BLM21P 0805G1
+	..
+
+Interfaces RS232
+	MAX232_R SOIC-16
+	MAX3222CWN SOIC18
+	MAX3223IDB SSOP20
+	MAX3232ESE SOIC16
+	MAX3232ESE SSOP20
+	
+Interfaces	RS485
+	AD485 SO8 no-isolated
+	ADM2483 SOIC16W isolated
+
+Interfaces	CAN
+	MCP2551 DIP8_S
+	..
+
+Interfaces Ethernet Modules
+	iL-SM2144NH-I ICHIP_LAN ICHIP-LAN https://eu.mouser.com/ProductDetail/Connect-One/iL-SM2144NH-I?qs=fLSHF8TigmV4MTt5kNhQGA%3D%3D
+	..
+
+Interfaces RFID
+	MFRC523
+	..
+
+Inventer
+	74HC04A SOIC-14
+	..
+
+Leds
+	HL0805 VD0805
+	AL307 LED307
+	LED 3mm 0805G1LED
+	LED 3mm LED 3mm
+	LED0603 LED0603
+	LED0805 0805G1LED
+	LED0805 0805 LED
+
+Level Translators
+	TXB0104PW TXB0104
+	..
+
+MCU
+	STM32L451xxx LQFP64_L
+	STM32L451xxx LQFP64_M
+	STM32L451xxx LQFP64_N
+	PIC16F87X(DIP28) DIP28SMALL
+	PIC10F22X_DIP DIP8_S
+	PIC12F5XX DIP8_S
+	PIC18FXX8 DIP28_S
+	PIC16FXX20 TQFP64
+	PIC18FXX2(TQFP) TQFP44
+
+Memory
+	EEPROM
+		AT24C512 SOIC-8
+
+Mux Demux
+	CD4051 SOIC16 Analog Multiplexer and demux
+	CD4052 SOIC16
+	74HC151 SOIC16 Digital 8-input multiplexer
+	74HC151D SOIC16
+
+OA
+	LM358A SO8	
+	TS951ILT SOT-23-5
+	RUS	KR1401UD2BA DIP14
+
+Optocoupler
+	KPC357NT
+	4N35_SM OPTO_SM
+	H11L1_SM OPTO_SM
+	PC357N 4-pin Mini-flat
+
+Power supply DC-DC Converter
+	AM1S-050SZ SIP4  http://www.aimtec.com/site/Aimtec/files/Datasheet/HighResolution/AM1S-Z.pdf
+	TSM0505S TSM_S
+	TSM_D TSM_D
+	SBT01L-05 SBT013
+	RS25XX DB9_SM
+
+Protect
+	C3LG60Y Gas Discharge Tubes
+	..
+
+Relays
+	BS-115C
+	G6M1A5DC
+	G5L	
+	G2R-1A G2R-1A	
+
+Resistor TH
+	RUS C2-23-2
+	RES-025W RES-025L
+	RES_2W RES-2W
+	RES_1W RES_1W
+
+Resistor SM	
+	RES_1206 1206
+	RES_1W RES_2512
+	RES_0805G1_2 0805G1
+	RES_0805G1_3 0805G1
+	RES_0805G1_4 0805G1
+	RES_0805G1 0805G1
+	RES_1206 RES_1206
+	RES_2512 RES_2512
+	RES_0805 0805
+	RES_2512 0805
+
+Resistor Variable
+	CA6V
+	RES_EVND 5*5 RES_EVND 5*5	 
+
+Sensors Hall
+	MLX90316
+	..
+
+Sensors Real-Time
+	DS1302_SM SOIC-8
+	..
+
+Sensors Temperature
+	DS18B20 TO-92
+	JNR10S050M JNR10S050M
+
+Transformers 
+	POL15020 E28/11 Core
+	PMCU0330 PMCU0330
+
+Transistor FET P
+	..
+	..
+
+Transistor FET N
+	..
+	..
+
+Transistor MOSFET P
+	IRLML6402 SOT-23
+	IRFL9014 SOT-223
+
+Transistor MOSFET N
+	IRLL2705 SOT-223	
+	IRFL4105 SOT-223
+	
+Transistor BJT NPN
+	SOT23-NPN SOT-23
+	BC847 SOT-23
+	MMBT2222A SOT-23
+
+Transistor BJT PNP
+	SOT23-PNP SOT-23
+	BC857 SOT-23
+	RUS КТ3107 TO-92
+
+Varistor
+	ERZV10
+	..
+
+Voltage Reference	
+	TL431 SOT-23_Primary
+	TL431 SOT-89-3L	
+
+Voltage regulator Linear
+	LM7800 TO220
+	MC7805BDTRKG DPAK
+	LM317 TO-220-3
+
+Voltage regulator Swithcer
+	LM2576 TO-220-5
+	TPS560200 SOT-23-5
+	TPS5430 SOIC8
+	TPS5430 SOT-23-5
+	LM2596S LM2596S	
+	ICL7660 SOIC8
+
+Voltage AC-DC PWM
+	TOP226 TO-220-3
+	..
+
+Wireless modules
+	TELITE TELIT -Delete
+	SIM900
+	SIM7100C
+
+?Not need
+	MCU-8722 8722	https://www.terraelectronica.ru/product/296759
+	..
+
+?Other
+	CX16D09 CX16D09 mb pin
+	CX20D11 CX20D11 mb pin

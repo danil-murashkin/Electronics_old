@@ -1,0 +1,5 @@
+Connectors Rectandular IDC
+	IDC - http://www.gosun-tech.com/Box-Header.htm		
+		IDC-10MA
+		IDC-20M 
+		IDC-16MA 

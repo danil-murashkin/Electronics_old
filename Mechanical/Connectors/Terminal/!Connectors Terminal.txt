@@ -1,0 +1,16 @@
+Connectors 
+	Terminal
+		Connectors Terminal Barrier Blocks
+		Connectors Terminal Plugs
+		Connectors Terminal Headers
+		Connectors Terminal Wire to Board 
+			TWB - Terminal Wire to Board - http://www.gosun-tech.com/Wireprotector-Terminal.htm		
+			X - pitch pin len
+			N - pins count (NRN - rows count), M,F - male female, V,H,A45 - vertical, horizontal, angle 45
+				TWB-5.08-2PV   
+				TWB-5.08-2PH
+				TWB-5.08-3PV
+				TWB-5.08-2PA45
+
+	Terminal block
+	Screwless Terminal
